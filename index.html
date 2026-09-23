@@ -225,11 +225,10 @@
             <button type="button" class="chip" data-filter="program" data-value="ETA" aria-pressed="false">Emerging Talent</button>
             <button type="button" class="chip" data-filter="program" data-value="GS" aria-pressed="false">Goal Shooters</button>
           </div>
-          <div class="filters__group" role="group" aria-label="Filter by region">
-            <span class="filters__label">Region</span>
+          <div class="filters__group" role="group" aria-label="Filter by state">
+            <span class="filters__label">State</span>
             <button type="button" class="chip is-active" data-filter="region" data-value="All" aria-pressed="true">All</button>
-            <button type="button" class="chip" data-filter="region" data-value="Metro" aria-pressed="false">Metro</button>
-            <button type="button" class="chip" data-filter="region" data-value="Regional" aria-pressed="false">Regional</button>
+            <button type="button" class="chip" data-filter="region" data-value="VIC" aria-pressed="false">VIC</button>
             <button type="button" class="chip" data-filter="region" data-value="QLD" aria-pressed="false">QLD</button>
           </div>
           <span class="filters__count" aria-live="polite">Showing <b data-result-count>9</b> of 9 locations</span>
@@ -242,99 +241,115 @@
           <div class="loc-group__head">
             <h3>Emerging Talent Academy</h3><span class="rule" aria-hidden="true"></span>
           </div>
-          <div class="loc-grid">
+          <div class="loc-sub" data-state="VIC">
+            <div class="loc-sub__head">
+              <span class="loc-sub__badge">VIC</span>
+              <h4>Victoria</h4>
+            </div>
+            <div class="loc-grid">
 
-            <article class="loc-card" data-program="ETA" data-region="Metro">
-              <div class="loc-card__top">
-                <div><h4>Oakleigh</h4><div class="loc-card__region">Metro</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="oakleigh_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="oakleigh_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+              <article class="loc-card" data-program="ETA" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Oakleigh</h5><div class="loc-card__region">Metro</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="oakleigh_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="oakleigh_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
 
-            <article class="loc-card" data-program="ETA" data-region="Metro">
-              <div class="loc-card__top">
-                <div><h4>Fawkner</h4><div class="loc-card__region">Metro</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="fawkner_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="fawkner_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+              <article class="loc-card" data-program="ETA" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Fawkner</h5><div class="loc-card__region">Metro</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="fawkner_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="fawkner_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
 
-            <article class="loc-card" data-program="ETA" data-region="Regional">
-              <div class="loc-card__top">
-                <div><h4>Ballarat</h4><div class="loc-card__region">Regional</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="ballarat_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="ballarat_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+              <article class="loc-card" data-program="ETA" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Ballarat</h5><div class="loc-card__region">Regional</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="ballarat_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="ballarat_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
 
-            <article class="loc-card" data-program="ETA" data-region="Regional">
-              <div class="loc-card__top">
-                <div><h4>Sale</h4><div class="loc-card__region">Regional</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="sale_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="sale_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+              <article class="loc-card" data-program="ETA" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Sale</h5><div class="loc-card__region">Regional</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="sale_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="sale_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
 
-            <article class="loc-card" data-program="ETA" data-region="Regional">
-              <div class="loc-card__top">
-                <div><h4>Geelong</h4><div class="loc-card__region">Regional</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="geelong_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="geelong_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+              <article class="loc-card" data-program="ETA" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Geelong</h5><div class="loc-card__region">Regional</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="geelong_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="geelong_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
 
-            <article class="loc-card" data-program="ETA" data-region="QLD">
-              <div class="loc-card__top">
-                <div><h4>Priestdale</h4><div class="loc-card__region">Queensland</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="priestdale_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="priestdale_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+            </div>
+          </div>
 
-            <article class="loc-card" data-program="ETA" data-region="QLD">
-              <div class="loc-card__top">
-                <div><h4>QLD location #2</h4><div class="loc-card__region">Queensland</div></div>
-                <span class="tag tag--navy tag--xs">ETA</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Date to be announced</span></div>
-              <div class="loc-card__actions">
-                <p>Venue and date to be announced. Register your interest and we'll contact you as soon as this Selection Day is confirmed.</p>
-                <a class="reg-btn reg-btn--outline" data-form="qld2_interest" href="#" target="_blank" rel="noopener"><span>Register your interest</span></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Location to be announced</div>
-            </article>
+          <div class="loc-sub" data-state="QLD">
+            <div class="loc-sub__head">
+              <span class="loc-sub__badge">QLD</span>
+              <h4>Queensland</h4>
+            </div>
+            <div class="loc-grid">
 
+              <article class="loc-card" data-program="ETA" data-region="QLD">
+                <div class="loc-card__top">
+                  <div><h5>Priestdale</h5><div class="loc-card__region">Queensland</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="priestdale_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="priestdale_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
+
+              <article class="loc-card" data-program="ETA" data-region="QLD">
+                <div class="loc-card__top">
+                  <div><h5>QLD location #2</h5><div class="loc-card__region">Queensland</div></div>
+                  <span class="tag tag--navy tag--xs">ETA</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Date to be announced</span></div>
+                <div class="loc-card__actions">
+                  <p>Venue and date to be announced. Register your interest and we'll contact you as soon as this Selection Day is confirmed.</p>
+                  <a class="reg-btn reg-btn--outline" data-form="qld2_interest" href="#" target="_blank" rel="noopener"><span>Register your interest</span></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Location to be announced</div>
+              </article>
+
+            </div>
           </div>
         </div>
 
@@ -343,34 +358,40 @@
           <div class="loc-group__head">
             <h3>Goal Shooters Academy</h3><span class="rule" aria-hidden="true"></span>
           </div>
-          <div class="loc-grid">
+          <div class="loc-sub" data-state="VIC">
+            <div class="loc-sub__head">
+              <span class="loc-sub__badge">VIC</span>
+              <h4>Victoria</h4>
+            </div>
+            <div class="loc-grid">
 
-            <article class="loc-card loc-card--gs" data-program="GS" data-region="Metro">
-              <div class="loc-card__top">
-                <div><h4>Sandringham</h4><div class="loc-card__region">Metro</div></div>
-                <span class="tag tag--orange tag--xs">Goal Shooters</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
-              <div class="loc-card__actions">
-                <a class="reg-btn" data-form="sandringham_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-                <a class="reg-btn" data-form="sandringham_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
-            </article>
+              <article class="loc-card loc-card--gs" data-program="GS" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Sandringham</h5><div class="loc-card__region">Metro</div></div>
+                  <span class="tag tag--orange tag--xs">Goal Shooters</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Fri 6 Nov 2026</span></div>
+                <div class="loc-card__actions">
+                  <a class="reg-btn" data-form="sandringham_11_12" href="#" target="_blank" rel="noopener"><span>Register — Ages 11 &amp; 12</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="reg-btn" data-form="sandringham_13_14" href="#" target="_blank" rel="noopener"><span>Register — Ages 13 &amp; 14</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Spots limited — squad capped per location</div>
+              </article>
 
-            <article class="loc-card loc-card--gs" data-program="GS" data-region="Metro">
-              <div class="loc-card__top">
-                <div><h4>Box Hill</h4><div class="loc-card__region">Metro</div></div>
-                <span class="tag tag--orange tag--xs">Goal Shooters</span>
-              </div>
-              <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Date to be confirmed</span></div>
-              <div class="loc-card__actions">
-                <p>This location is still being confirmed. Register your interest and we'll be in touch the moment it's locked in.</p>
-                <a class="reg-btn reg-btn--outline" data-form="boxhill_interest" href="#" target="_blank" rel="noopener"><span>Register your interest</span></a>
-              </div>
-              <div class="loc-card__spots"><i aria-hidden="true"></i>Location to be announced</div>
-            </article>
+              <article class="loc-card loc-card--gs" data-program="GS" data-region="VIC">
+                <div class="loc-card__top">
+                  <div><h5>Box Hill</h5><div class="loc-card__region">Metro</div></div>
+                  <span class="tag tag--orange tag--xs">Goal Shooters</span>
+                </div>
+                <div class="loc-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Date to be confirmed</span></div>
+                <div class="loc-card__actions">
+                  <p>This location is still being confirmed. Register your interest and we'll be in touch the moment it's locked in.</p>
+                  <a class="reg-btn reg-btn--outline" data-form="boxhill_interest" href="#" target="_blank" rel="noopener"><span>Register your interest</span></a>
+                </div>
+                <div class="loc-card__spots"><i aria-hidden="true"></i>Location to be announced</div>
+              </article>
 
+            </div>
           </div>
         </div>
 

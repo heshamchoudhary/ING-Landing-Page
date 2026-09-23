@@ -63,7 +63,7 @@ const SOCIAL_LINKS = {
     a.removeAttribute('target');
     a.addEventListener('click', (e) => {
       e.preventDefault();
-      const name = a.closest('.loc-card').querySelector('h4').textContent;
+      const name = a.closest('.loc-card').querySelector('h5').textContent;
       showToast('Registration for ' + name + ' opens very soon — please check back shortly.');
     });
   });
@@ -146,6 +146,7 @@ const SOCIAL_LINKS = {
 
   /* ---------- Locations: reveal + filter ---------- */
   const groups = $$('.loc-group');
+  const subs = $$('.loc-sub');
   const cards = $$('.loc-card');
   const emptyState = $('.loc-empty');
   const countEl = $('[data-result-count]');
@@ -205,7 +206,7 @@ const SOCIAL_LINKS = {
     syncChips();
     const visible = cards.filter(matches);
     const leaving = cards.filter((c) => !c.hidden && !matches(c));
-    const leavingGroups = groups.filter((g) => !g.hidden && !visible.some((c) => g.contains(c)));
+    const leavingGroups = groups.concat(subs).filter((g) => !g.hidden && !visible.some((c) => g.contains(c)));
 
     const commit = () => {
       cards.forEach((c) => { c.hidden = !matches(c); c.classList.remove('is-leaving'); });
@@ -213,6 +214,10 @@ const SOCIAL_LINKS = {
         g.hidden = !visible.some((c) => g.contains(c));
         g.classList.remove('is-leaving');
         if (!g.hidden) g.classList.add('is-in');
+      });
+      subs.forEach((sub) => {
+        sub.hidden = !visible.some((c) => sub.contains(c));
+        sub.classList.remove('is-leaving');
       });
       emptyState.hidden = visible.length > 0;
       emptyState.classList.toggle('is-shown', visible.length === 0);
