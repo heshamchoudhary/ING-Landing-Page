@@ -9,6 +9,8 @@
    -------------------------------------------------------------------------- */
 const REGISTRATION_LINKS = {
   // Emerging Talent Academy
+  sandringham_eta_11_12: '',
+  sandringham_eta_13_14: '',
   oakleigh_11_12:    '',
   oakleigh_13_14:    '',
   fawkner_11_12:     '',
@@ -23,7 +25,7 @@ const REGISTRATION_LINKS = {
   priestdale_13_14:  '',
   qld2_interest:     '',
 
-  // Goal Shooters Academy
+  // Goal Shooters Academy (Sandringham — open registrations)
   sandringham_11_12: '',
   sandringham_13_14: '',
   boxhill_interest:  ''
