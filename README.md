@@ -8,9 +8,6 @@ If a link is left empty, its button shows a "Registration opens very soon" messa
 Put social profile URLs in `SOCIAL_LINKS` in the same file.
 
 ## Content still to be confirmed by the client (marked `TODO` in index.html)
-- Testimonial quotes and attributions ("Parent name · Club / association")
-- The 2,000+ stat and its "Stat to be confirmed by client." note
-- FAQ answers that end in "(to be confirmed by client)"
 - Instagram / Facebook URLs
 
 ## Structure

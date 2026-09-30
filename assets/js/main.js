@@ -9,26 +9,23 @@
    -------------------------------------------------------------------------- */
 const REGISTRATION_LINKS = {
   // Emerging Talent Academy
-  sandringham_eta_11_12: '',
-  sandringham_eta_13_14: '',
-  oakleigh_11_12:    '',
-  oakleigh_13_14:    '',
-  fawkner_11_12:     '',
-  fawkner_13_14:     '',
-  ballarat_11_12:    '',
-  ballarat_13_14:    '',
-  sale_11_12:        '',
-  sale_13_14:        '',
-  geelong_11_12:     '',
-  geelong_13_14:     '',
-  priestdale_11_12:  '',
-  priestdale_13_14:  '',
-  qld2_interest:     '',
+  sandringham_eta_11_12: 'https://go.inspirenetballgroup.com/widget/form/aDXApiJCR8Mvov6aRZph',
+  sandringham_eta_13_14: 'https://go.inspirenetballgroup.com/widget/form/ctMOwvg29eSCemVneFmG',
+  fawkner_11_12:         'https://go.inspirenetballgroup.com/widget/form/HMb3zPijqyyMJ0yEcqnw',
+  fawkner_13_14:         'https://go.inspirenetballgroup.com/widget/form/HMb3zPijqyyMJ0yEcqnw',
+  ballarat_11_12:        'https://go.inspirenetballgroup.com/widget/form/g4c2cZGC5TTZGxE1z59x',
+  ballarat_13_14:        'https://go.inspirenetballgroup.com/widget/form/8YPluCYUZ3v5OXQTyWR1',
+  gippsland_11_12:       'https://go.inspirenetballgroup.com/widget/form/U0PpYyTrd054GyZpWiMd',
+  gippsland_13_14:       'https://go.inspirenetballgroup.com/widget/form/S6naHqKM3twPezgN6uHM',
+  geelong_11_12:         'https://go.inspirenetballgroup.com/widget/form/fLQ6kUSf0U64mExI3bvd',
+  geelong_13_14:         'https://go.inspirenetballgroup.com/widget/form/NzBuOj8BeW5EzGEfqk50',
+  priestdale_11_12:      'https://go.inspirenetballgroup.com/widget/form/kdaFKoTB2F039gUpxwhx',
+  priestdale_13_14:      'https://go.inspirenetballgroup.com/widget/form/ElQXzn6i0IBQGFnFKj4h',
 
-  // Goal Shooters Academy (Sandringham — open registrations)
-  sandringham_11_12: '',
-  sandringham_13_14: '',
-  boxhill_interest:  ''
+  // Goal Shooters Academy
+  sandringham_gs_11u:      'https://go.inspirenetballgroup.com/widget/form/f1BMd1sP7C6rHPXuJjh7',
+  sandringham_gs_13u:      'https://go.inspirenetballgroup.com/widget/form/IW6OMTWxZiUasG6hIaFC',
+  sandringham_gs_15u:      'https://go.inspirenetballgroup.com/widget/form/tBI2PCzTNtK1bq2OQdLq'
 };
 
 const SOCIAL_LINKS = {

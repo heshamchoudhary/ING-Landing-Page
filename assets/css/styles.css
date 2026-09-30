@@ -263,6 +263,10 @@ body { padding-top: var(--header-h); }
 }
 .step--accent .step__num { color: var(--orange); }
 .step p { margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--body); }
+.step__list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; font-size: 15px; line-height: 1.45; color: var(--body); }
+.step__list li { position: relative; padding-left: 16px; }
+.step__list li::before { content: ""; position: absolute; left: 0; top: .55em; width: 7px; height: 7px; background: var(--orange); border-radius: 1px; }
+.step__list strong { color: var(--navy); font-weight: 700; }
 
 /* ---------- Academies ---------- */
 .academies { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: clamp(18px, 2.5vw, 28px); }
