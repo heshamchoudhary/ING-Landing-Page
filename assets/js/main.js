@@ -17,6 +17,8 @@ const REGISTRATION_LINKS = {
   ballarat_13_14:        'https://go.inspirenetballgroup.com/widget/form/8YPluCYUZ3v5OXQTyWR1',
   sale_11_12:            'https://go.inspirenetballgroup.com/widget/form/U0PpYyTrd054GyZpWiMd',
   sale_13_14:            'https://go.inspirenetballgroup.com/widget/form/S6naHqKM3twPezgN6uHM',
+  oakleigh_south_11_12:  'https://go.inspirenetballgroup.com/widget/form/yC9NyAsdYNVvNj50KPoh',
+  oakleigh_south_13_14:  'https://go.inspirenetballgroup.com/widget/form/HDLQbzgwnNi5EVh8p2UI',
   geelong_11_12:         'https://go.inspirenetballgroup.com/widget/form/fLQ6kUSf0U64mExI3bvd',
   geelong_13_14:         'https://go.inspirenetballgroup.com/widget/form/NzBuOj8BeW5EzGEfqk50',
   priestdale_11_12:      'https://go.inspirenetballgroup.com/widget/form/kdaFKoTB2F039gUpxwhx',
