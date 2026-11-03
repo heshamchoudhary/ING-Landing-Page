@@ -59,19 +59,32 @@ const SOCIAL_LINKS = {
     const url = (REGISTRATION_LINKS[a.dataset.form] || '').trim();
     if (url) {
       a.href = url;
-      // Meta Pixel: custom RegisterClick event for registration intent. Kept separate from the
-      // standard Lead event, which the form tool sends on a completed registration.
-      // Forms open in a new tab, so this page stays open long enough to send it.
+      // Registration-intent tracking. Forms open in a new tab, so this page stays open long enough to send.
+      // Meta: custom RegisterClick, kept separate from the standard Lead the form tool sends on a completed
+      // registration. GA4: register_click with the same details.
       a.addEventListener('click', () => {
-        if (typeof window.fbq !== 'function') return;
         const card = a.closest('.loc-card');
-        window.fbq('trackCustom', 'RegisterClick', {
-          content_name: card.querySelector('h5').textContent.trim(),
-          content_category: card.dataset.program === 'GS' ? 'Goal Shooters Academy' : 'Emerging Talent Academy',
-          age_group: a.textContent.replace(/^\s*Register\s*—\s*/, '').trim(),
-          state: card.dataset.region,
-          form_id: a.dataset.form
-        });
+        const location = card.querySelector('h5').textContent.trim();
+        const academy = card.dataset.program === 'GS' ? 'Goal Shooters Academy' : 'Emerging Talent Academy';
+        const ageGroup = a.textContent.replace(/^\s*Register\s*—\s*/, '').trim();
+        if (typeof window.fbq === 'function') {
+          window.fbq('trackCustom', 'RegisterClick', {
+            content_name: location,
+            content_category: academy,
+            age_group: ageGroup,
+            state: card.dataset.region,
+            form_id: a.dataset.form
+          });
+        }
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'register_click', {
+            location: location,
+            academy: academy,
+            age_group: ageGroup,
+            state: card.dataset.region,
+            form_id: a.dataset.form
+          });
+        }
       });
       return;
     }
