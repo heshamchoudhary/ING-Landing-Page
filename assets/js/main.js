@@ -64,7 +64,7 @@ const SOCIAL_LINKS = {
       // registration. GA4: register_click with the same details.
       a.addEventListener('click', () => {
         const card = a.closest('.loc-card');
-        const location = card.querySelector('h5').textContent.trim();
+        const location = card.querySelector('.loc-card__name').textContent.trim();
         const academy = card.dataset.program === 'GS' ? 'Goal Shooters Academy' : 'Emerging Talent Academy';
         const ageGroup = a.textContent.replace(/^\s*Register\s*—\s*/, '').trim();
         if (typeof window.fbq === 'function') {
@@ -91,7 +91,7 @@ const SOCIAL_LINKS = {
     a.removeAttribute('target');
     a.addEventListener('click', (e) => {
       e.preventDefault();
-      const name = a.closest('.loc-card').querySelector('h5').textContent;
+      const name = a.closest('.loc-card').querySelector('.loc-card__name').textContent;
       showToast('Registration for ' + name + ' opens very soon — please check back shortly.');
     });
   });

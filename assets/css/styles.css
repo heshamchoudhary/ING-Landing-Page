@@ -406,6 +406,7 @@ body { padding-top: var(--header-h); }
   font-family: var(--f-display); font-weight: 400; text-transform: uppercase;
   font-size: 27px; line-height: 1.02; color: var(--navy); margin: 0 0 4px;
 }
+.loc-card__state { font-size: .78em; color: var(--orange); white-space: nowrap; }
 .loc-card__region {
   font-family: var(--f-cond); font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
 }
