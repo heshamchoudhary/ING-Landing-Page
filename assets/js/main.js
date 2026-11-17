@@ -9,8 +9,6 @@
    -------------------------------------------------------------------------- */
 const REGISTRATION_LINKS = {
   // Emerging Talent Academy
-  sandringham_eta_11_12: 'https://go.inspirenetballgroup.com/widget/form/aDXApiJCR8Mvov6aRZph',
-  sandringham_eta_13_14: 'https://go.inspirenetballgroup.com/widget/form/ctMOwvg29eSCemVneFmG',
   fawkner_11_12:         'https://go.inspirenetballgroup.com/widget/form/HMb3zPijqyyMJ0yEcqnw',
   fawkner_13_14:         'https://go.inspirenetballgroup.com/widget/form/HMb3zPijqyyMJ0yEcqnw',
   ballarat_11_12:        'https://go.inspirenetballgroup.com/widget/form/g4c2cZGC5TTZGxE1z59x',
